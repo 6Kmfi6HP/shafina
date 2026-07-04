@@ -39,9 +39,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 25,
-    "total_words": 35873,
-    "last_updated": "2026-07-04 18:51:54",
+    "current_chapter": 26,
+    "total_words": 36832,
+    "last_updated": "2026-07-04 18:55:28",
     "volumes_completed": [],
     "current_volume": 1,
     "volumes_planned": [
@@ -77,7 +77,8 @@
       "22": "chapter_committed",
       "23": "chapter_committed",
       "24": "chapter_committed",
-      "25": "chapter_committed"
+      "25": "chapter_committed",
+      "26": "chapter_committed"
     }
   },
   "protagonist_state": {
