@@ -1,0 +1,15 @@
+{
+  "next_volume_anchor": {
+    "volume": 4,
+    "volume_name": "破冰",
+    "core_conflict": "谁先迈出那一步——林叙终于决定开口",
+    "volume_end_climax": "林叙鼓起勇气说出心意"
+  },
+  "foreshadow_writeback": [
+    {"content": "拉面店约会——第一次非工作见面", "buried_chapter": "第110章", "payoff_chapter": "第170章", "level": "卷级"},
+    {"content": "茶水间独处的沉默", "buried_chapter": "第155章", "payoff_chapter": "第170章", "level": "卷级"}
+  ],
+  "open_loop_writeback": [
+    {"content": "他们还能维持多久暗号模式？", "buried_chapter": "第170章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}
