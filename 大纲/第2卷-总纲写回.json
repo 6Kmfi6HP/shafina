@@ -1,0 +1,16 @@
+{
+  "next_volume_anchor": {
+    "volume": 3,
+    "volume_name": "拉扯",
+    "core_conflict": "靠近又后退——每次接近都被彼此的紧张打乱",
+    "volume_end_climax": "两人在茶水间独处，谁都不敢先开口的窒息感"
+  },
+  "foreshadow_writeback": [
+    {"content": "吳侑璇拍下了泡面包裝的照片", "buried_chapter": "第61章", "payoff_chapter": "第102章", "level": "卷级"},
+    {"content": "吳侑璇在超市买到了同款泡面", "buried_chapter": "第78章", "payoff_chapter": "第99章", "level": "卷级"},
+    {"content": "林叙注意到吳侑璇在观察他", "buried_chapter": "第72章", "payoff_chapter": "第95章", "level": "细"}
+  ],
+  "open_loop_writeback": [
+    {"content": "吳侑璇回赠了乌冬面——林叙会怎么回应？", "buried_chapter": "第110章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}
