@@ -1,0 +1,19 @@
+{
+  "next_volume_anchor": {
+    "volume": 2,
+    "volume_name": "试探",
+    "core_conflict": "暗号与等待——吳侑璇回赠乌冬面，两人开始试探彼此",
+    "volume_end_climax": "吳侑璇在日本买了乌冬面，回到办公室郑重递给林叙，说「你给过我，这次我给你」"
+  },
+  "foreshadow_writeback": [
+    {"content": "林叙注意到吳侑璇每天泡茶的时间", "buried_chapter": "第3章", "payoff_chapter": "第80章（第2卷）", "level": "卷级"},
+    {"content": "吳侑璇在固定时段看向门口", "buried_chapter": "第5章", "payoff_chapter": "第90章（第2卷）", "level": "卷级"},
+    {"content": "林叙桌上有张从不示人的合影照片", "buried_chapter": "第10章", "payoff_chapter": "第200章（第4卷）", "level": "全书"},
+    {"content": "吳侑璇的iPad里有一幅未完成的画", "buried_chapter": "第8章", "payoff_chapter": "第60章（第2卷）", "level": "卷级"},
+    {"content": "乌冬面的品牌包装细节", "buried_chapter": "第50章", "payoff_chapter": "第60章（第2卷）", "level": "卷级"}
+  ],
+  "open_loop_writeback": [
+    {"content": "林叙送出了伴手礼——吳侑璇会回礼吗？", "buried_chapter": "第50章", "payoff_chapter": "", "level": "持续开放环"},
+    {"content": "吳侑璇收下礼物但没有表态——她到底是怎么想的？", "buried_chapter": "第50章", "payoff_chapter": "", "level": "持续开放环"}
+  ]
+}

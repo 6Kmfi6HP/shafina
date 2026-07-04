@@ -1,0 +1,96 @@
+{
+  "project_info": {
+    "title": "吴小姐",
+    "genre": "都市",
+    "genre_label": "都市/现言",
+    "genre_tags": {
+      "route": [],
+      "trope": [],
+      "format": [],
+      "templates": []
+    },
+    "created_at": "2026-07-04",
+    "target_words": 450000,
+    "target_chapters": 225,
+    "golden_finger_name": "",
+    "golden_finger_type": "无",
+    "golden_finger_style": "",
+    "core_selling_points": "真实办公室暗恋,双向视角,乌冬面物叙事,纯写实细腻风,内向者心动信号",
+    "protagonist_structure": "单主角",
+    "heroine_config": "单女主",
+    "heroine_names": "吳侑璇",
+    "heroine_role": "情感线",
+    "co_protagonists": "",
+    "co_protagonist_roles": "",
+    "antagonist_tiers": "",
+    "world_scale": "办公室/都市",
+    "factions": "办公室人际关系圈",
+    "power_system_type": "无（现实题材）",
+    "social_class": "职场白领",
+    "resource_distribution": "",
+    "gf_visibility": "",
+    "gf_irreversible_cost": "无金手指",
+    "target_reader": "豆瓣阅读/出版向读者",
+    "platform": "豆瓣阅读",
+    "currency_system": "",
+    "currency_exchange": "",
+    "sect_hierarchy": "",
+    "cultivation_chain": "",
+    "cultivation_subtiers": ""
+  },
+  "progress": {
+    "current_chapter": 0,
+    "total_words": 0,
+    "last_updated": "2026-07-04 16:10:09",
+    "volumes_completed": [],
+    "current_volume": 1,
+    "volumes_planned": [
+      {
+        "volume": 1,
+        "chapters_range": "1-50",
+        "planned_at": "2026-07-04"
+      }
+    ]
+  },
+  "protagonist_state": {
+    "name": "林叙",
+    "power": {
+      "realm": "",
+      "layer": 1,
+      "bottleneck": ""
+    },
+    "location": {
+      "current": "",
+      "last_chapter": 0
+    },
+    "golden_finger": {
+      "name": "无金手指",
+      "level": 0,
+      "cooldown": 0,
+      "skills": []
+    },
+    "attributes": {}
+  },
+  "relationships": {},
+  "disambiguation_warnings": [],
+  "disambiguation_pending": [],
+  "world_settings": {
+    "power_system": [],
+    "factions": [],
+    "locations": []
+  },
+  "plot_threads": {
+    "active_threads": [],
+    "foreshadowing": []
+  },
+  "review_checkpoints": [],
+  "chapter_meta": {},
+  "strand_tracker": {
+    "last_quest_chapter": 0,
+    "last_fire_chapter": 0,
+    "last_constellation_chapter": 0,
+    "current_dominant": "quest",
+    "chapters_since_switch": 0,
+    "history": []
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "event_id": "ch001_open_loop",
+    "chapter": 1,
+    "event_type": "open_loop_created",
+    "subject": "林叙对吳侑璇产生无意识注意",
+    "payload": {
+      "scene": "茶水间",
+      "description": "茶水间偶遇同时拿杯子，林叙开始不自知地注意吳侑璇",
+      "involved_entities": [
+        "linxu",
+        "wuyouxuan"
+      ],
+      "loop_type": "情感",
+      "expected_resolution_chapter": 50
+    }
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 1,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_001.json",
+    "review": "chapter_001.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 1,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "other",
+        "location": "",
+        "description": "出差时间矛盾——正文写下周出差而大纲规划在8月（已修复）",
+        "evidence": "",
+        "fix_hint": "",
+        "blocking": false
+      }
+    ],
+    "issues_count": 1,
+    "has_blocking": false,
+    "summary": "1个非阻断性问题（已修复）"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 1,
+    "fulfillment_rate": 1.0,
+    "notes": "核心节点CBN+CPN1+CEN全覆盖，CPN2/CPN3标记为可选覆盖"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 1,
+    "resolved": [],
+    "ambiguous_terms": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch001_open_loop",
+        "chapter": 1,
+        "event_type": "open_loop_created",
+        "subject": "林叙对吳侑璇产生无意识注意",
+        "payload": {
+          "scene": "茶水间",
+          "description": "茶水间偶遇同时拿杯子，林叙开始不自知地注意吳侑璇",
+          "involved_entities": [
+            "linxu",
+            "wuyouxuan"
+          ],
+          "loop_type": "情感",
+          "expected_resolution_chapter": 50
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "linxu",
+        "attribute": "attention",
+        "from": "无",
+        "to": "开始注意到吳侑璇",
+        "chapter": 1,
+        "confidence": 0.9
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第一章：林叙周一早晨的日常。午休后在茶水间与吳侑璇同时拿同一只杯子，两人都愣了一下。下班时他脑海里浮现她别头发的画面。",
+    "chapter": 1,
+    "entities": [
+      {
+        "id": "linxu",
+        "name": "林叙",
+        "type": "protagonist",
+        "mentions": 45,
+        "aliases": [],
+        "first_mention": 1
+      },
+      {
+        "id": "wuyouxuan",
+        "name": "吳侑璇",
+        "type": "heroine",
+        "mentions": 3,
+        "aliases": [],
+        "first_mention": 1
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

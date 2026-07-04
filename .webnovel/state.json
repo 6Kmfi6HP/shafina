@@ -39,12 +39,22 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 0,
-    "total_words": 0,
-    "last_updated": "2026-07-04 16:10:09",
+    "current_chapter": 1,
+    "total_words": 1923,
+    "last_updated": "2026-07-04 16:58:09",
     "volumes_completed": [],
     "current_volume": 1,
-    "volumes_planned": []
+    "volumes_planned": [
+      {
+        "volume": 1,
+        "chapters_range": "1-50",
+        "planned_at": "2026-07-04",
+        "updated_at": "2026-07-04"
+      }
+    ],
+    "chapter_status": {
+      "1": "chapter_committed"
+    }
   },
   "protagonist_state": {
     "name": "林叙",
@@ -86,5 +96,6 @@
     "current_dominant": "quest",
     "chapters_since_switch": 0,
     "history": []
-  }
+  },
+  "entity_state": {}
 }

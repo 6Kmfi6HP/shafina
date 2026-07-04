@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "issues": [
+    {
+      "severity": "medium",
+      "category": "other",
+      "location": "",
+      "description": "出差时间矛盾——正文写下周出差而大纲规划在8月（已修复）",
+      "evidence": "",
+      "fix_hint": "",
+      "blocking": false
+    }
+  ],
+  "issues_count": 1,
+  "blocking_count": 0,
+  "has_blocking": false,
+  "summary": "1个非阻断性问题（已修复）"
+}

@@ -1,0 +1,17 @@
+{
+  "chapter": 1,
+  "planned_nodes": [
+    "CBN",
+    "CPN1",
+    "CEN"
+  ],
+  "covered_nodes": [
+    "CBN",
+    "CPN1",
+    "CEN"
+  ],
+  "missed_nodes": [],
+  "extra_nodes": [],
+  "fulfillment_rate": 1.0,
+  "notes": "核心节点CBN+CPN1+CEN全覆盖，CPN2/CPN3标记为可选覆盖"
+}

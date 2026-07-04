@@ -1,0 +1,51 @@
+{
+  "chapter": 1,
+  "entities": [
+    {
+      "id": "linxu",
+      "name": "林叙",
+      "type": "protagonist",
+      "mentions": 45,
+      "aliases": [],
+      "first_mention": 1
+    },
+    {
+      "id": "wuyouxuan",
+      "name": "吳侑璇",
+      "type": "heroine",
+      "mentions": 3,
+      "aliases": [],
+      "first_mention": 1
+    }
+  ],
+  "state_deltas": [
+    {
+      "entity_id": "linxu",
+      "attribute": "attention",
+      "from": "无",
+      "to": "开始注意到吳侑璇",
+      "chapter": 1,
+      "confidence": 0.9
+    }
+  ],
+  "entity_deltas": [],
+  "accepted_events": [
+    {
+      "event_id": "ch001_open_loop",
+      "chapter": 1,
+      "event_type": "open_loop_created",
+      "subject": "林叙对吳侑璇产生无意识注意",
+      "payload": {
+        "scene": "茶水间",
+        "description": "茶水间偶遇同时拿杯子，林叙开始不自知地注意吳侑璇",
+        "involved_entities": [
+          "linxu",
+          "wuyouxuan"
+        ],
+        "loop_type": "情感",
+        "expected_resolution_chapter": 50
+      }
+    }
+  ],
+  "summary_text": "第一章：林叙周一早晨的日常。午休后在茶水间与吳侑璇同时拿同一只杯子，两人都愣了一下。下班时他脑海里浮现她别头发的画面。"
+}
