@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 2,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_002.json",
+    "review": "chapter_002.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 2,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "审查通过，无问题"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 2,
+    "fulfillment_rate": 1.0,
+    "notes": "全部节点已覆盖"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 2,
+    "resolved": [],
+    "ambiguous_terms": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch002_open_loop",
+        "chapter": 2,
+        "event_type": "open_loop_created",
+        "subject": "吳侑璇",
+        "payload": {
+          "scene": "茶水间/办公室",
+          "description": "吳侑璇在茶水间碰到林叙后心神不宁",
+          "loop_type": "情感"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "wuyouxuan",
+        "attribute": "attention",
+        "from": "无",
+        "to": "开始注意到林叙",
+        "chapter": 2,
+        "confidence": 0.85
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第二章：吳侑璇视角的周一——茶水间认出了林叙，午休时看到他给橡皮树浇水，晚上对自己说别多想。",
+    "chapter": 2,
+    "entities": [
+      {
+        "id": "wuyouxuan",
+        "name": "吳侑璇",
+        "type": "heroine",
+        "mentions": 40,
+        "aliases": [],
+        "first_mention": 2
+      },
+      {
+        "id": "linxu",
+        "name": "林叙",
+        "type": "protagonist",
+        "mentions": 5,
+        "aliases": [],
+        "first_mention": 2
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

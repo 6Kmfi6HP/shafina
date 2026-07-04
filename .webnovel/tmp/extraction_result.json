@@ -1,51 +1,46 @@
 {
-  "chapter": 1,
+  "chapter": 2,
   "entities": [
-    {
-      "id": "linxu",
-      "name": "林叙",
-      "type": "protagonist",
-      "mentions": 45,
-      "aliases": [],
-      "first_mention": 1
-    },
     {
       "id": "wuyouxuan",
       "name": "吳侑璇",
       "type": "heroine",
-      "mentions": 3,
+      "mentions": 40,
       "aliases": [],
-      "first_mention": 1
+      "first_mention": 2
+    },
+    {
+      "id": "linxu",
+      "name": "林叙",
+      "type": "protagonist",
+      "mentions": 5,
+      "aliases": [],
+      "first_mention": 2
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "linxu",
+      "entity_id": "wuyouxuan",
       "attribute": "attention",
       "from": "无",
-      "to": "开始注意到吳侑璇",
-      "chapter": 1,
-      "confidence": 0.9
+      "to": "开始注意到林叙",
+      "chapter": 2,
+      "confidence": 0.85
     }
   ],
   "entity_deltas": [],
   "accepted_events": [
     {
-      "event_id": "ch001_open_loop",
-      "chapter": 1,
+      "event_id": "ch002_open_loop",
+      "chapter": 2,
       "event_type": "open_loop_created",
-      "subject": "林叙对吳侑璇产生无意识注意",
+      "subject": "吳侑璇",
       "payload": {
-        "scene": "茶水间",
-        "description": "茶水间偶遇同时拿杯子，林叙开始不自知地注意吳侑璇",
-        "involved_entities": [
-          "linxu",
-          "wuyouxuan"
-        ],
-        "loop_type": "情感",
-        "expected_resolution_chapter": 50
+        "scene": "茶水间/办公室",
+        "description": "吳侑璇在茶水间碰到林叙后心神不宁",
+        "loop_type": "情感"
       }
     }
   ],
-  "summary_text": "第一章：林叙周一早晨的日常。午休后在茶水间与吳侑璇同时拿同一只杯子，两人都愣了一下。下班时他脑海里浮现她别头发的画面。"
+  "summary_text": "第二章：吳侑璇视角的周一——茶水间认出了林叙，午休时看到他给橡皮树浇水，晚上对自己说别多想。"
 }

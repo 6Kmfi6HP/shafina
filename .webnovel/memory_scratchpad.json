@@ -23,13 +23,33 @@
         "memory_facts:open_loop:1"
       ],
       "updated_at": "2026-07-04T16:58:09"
+    },
+    {
+      "id": "mem-open_loop-85c709000ef5653c",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "情感：吳侑璇在茶水间碰到林叙后心神不宁",
+      "field": "status",
+      "value": "情感：吳侑璇在茶水间碰到林叙后心神不宁",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 2,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 2,
+      "evidence": [
+        "memory_facts:open_loop:2"
+      ],
+      "updated_at": "2026-07-04T17:03:28"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T16:58:09",
-    "total_items": 1
+    "last_updated": "2026-07-04T17:03:28",
+    "total_items": 2
   }
 }

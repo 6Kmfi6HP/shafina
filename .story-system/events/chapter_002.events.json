@@ -1,0 +1,13 @@
+[
+  {
+    "event_id": "ch002_open_loop",
+    "chapter": 2,
+    "event_type": "open_loop_created",
+    "subject": "吳侑璇",
+    "payload": {
+      "scene": "茶水间/办公室",
+      "description": "吳侑璇在茶水间碰到林叙后心神不宁",
+      "loop_type": "情感"
+    }
+  }
+]

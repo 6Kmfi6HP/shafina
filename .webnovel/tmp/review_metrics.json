@@ -1,8 +1,8 @@
 {
-  "chapter": 1,
-  "start_chapter": 1,
-  "end_chapter": 1,
-  "overall_score": 94.0,
+  "chapter": 2,
+  "start_chapter": 2,
+  "end_chapter": 2,
+  "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
     "setting": 100.0,
@@ -11,21 +11,19 @@
     "ai_flavor": 100.0,
     "logic": 100.0,
     "pacing": 100.0,
-    "other": 94.0
+    "other": 100.0
   },
   "severity_counts": {
     "critical": 0,
     "high": 0,
-    "medium": 1,
+    "medium": 0,
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第1章审查报告.md",
-  "notes": "1个非阻断性问题（已修复） | issues=1 | blocking=0 | categories=other",
-  "issues_count": 1,
+  "report_file": "审查报告/第2章审查报告.md",
+  "notes": "审查通过，无问题 | issues=0 | blocking=0",
+  "issues_count": 0,
   "blocking_count": 0,
-  "categories": [
-    "other"
-  ],
-  "timestamp": "2026-07-04T16:58:09"
+  "categories": [],
+  "timestamp": "2026-07-04T17:03:27"
 }
