@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "ch005_realization",
+    "chapter": 5,
+    "event_type": "character_state_changed",
+    "subject": "林叙",
+    "payload": {
+      "change": "从不自知到承认自己在意吳侑璇",
+      "scene": "工位"
+    }
+  }
+]
