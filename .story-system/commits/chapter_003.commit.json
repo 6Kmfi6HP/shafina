@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 3,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_003.json",
+    "review": "chapter_003.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": []
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 3,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "审查通过"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CPN2",
+      "CPN3",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [],
+    "chapter": 3,
+    "fulfillment_rate": 1.0,
+    "notes": "全部节点已覆盖"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 3,
+    "resolved": [],
+    "ambiguous_terms": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch003_tea",
+        "chapter": 3,
+        "event_type": "open_loop_created",
+        "subject": "林叙",
+        "payload": {
+          "scene": "茶水间",
+          "description": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "linxu",
+        "attribute": "attention_level",
+        "from": "被动注意",
+        "to": "主动等待",
+        "chapter": 3,
+        "confidence": 0.85
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第三章：林叙注意到吳侑璇每天下午三点十二分左右去茶水间泡茶。他假装倒水跟着去了茶水间，看到她别头发的动作。当天下午他去了三次茶水间。晚上他在日历上标记了那个时间。",
+    "chapter": 3,
+    "entities": [
+      {
+        "id": "linxu",
+        "name": "林叙",
+        "type": "protagonist",
+        "mentions": 25,
+        "aliases": [],
+        "first_mention": 3
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "skipped"
+  }
+}

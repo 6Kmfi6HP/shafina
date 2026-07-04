@@ -1,46 +1,37 @@
 {
-  "chapter": 2,
+  "chapter": 3,
   "entities": [
-    {
-      "id": "wuyouxuan",
-      "name": "吳侑璇",
-      "type": "heroine",
-      "mentions": 40,
-      "aliases": [],
-      "first_mention": 2
-    },
     {
       "id": "linxu",
       "name": "林叙",
       "type": "protagonist",
-      "mentions": 5,
+      "mentions": 25,
       "aliases": [],
-      "first_mention": 2
+      "first_mention": 3
     }
   ],
   "state_deltas": [
     {
-      "entity_id": "wuyouxuan",
-      "attribute": "attention",
-      "from": "无",
-      "to": "开始注意到林叙",
-      "chapter": 2,
+      "entity_id": "linxu",
+      "attribute": "attention_level",
+      "from": "被动注意",
+      "to": "主动等待",
+      "chapter": 3,
       "confidence": 0.85
     }
   ],
   "entity_deltas": [],
   "accepted_events": [
     {
-      "event_id": "ch002_open_loop",
-      "chapter": 2,
+      "event_id": "ch003_tea",
+      "chapter": 3,
       "event_type": "open_loop_created",
-      "subject": "吳侑璇",
+      "subject": "林叙",
       "payload": {
-        "scene": "茶水间/办公室",
-        "description": "吳侑璇在茶水间碰到林叙后心神不宁",
-        "loop_type": "情感"
+        "scene": "茶水间",
+        "description": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间"
       }
     }
   ],
-  "summary_text": "第二章：吳侑璇视角的周一——茶水间认出了林叙，午休时看到他给橡皮树浇水，晚上对自己说别多想。"
+  "summary_text": "第三章：林叙注意到吳侑璇每天下午三点十二分左右去茶水间泡茶。他假装倒水跟着去了茶水间，看到她别头发的动作。当天下午他去了三次茶水间。晚上他在日历上标记了那个时间。"
 }

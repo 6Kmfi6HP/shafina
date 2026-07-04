@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "ch003_tea",
+    "chapter": 3,
+    "event_type": "open_loop_created",
+    "subject": "林叙",
+    "payload": {
+      "scene": "茶水间",
+      "description": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间"
+    }
+  }
+]

@@ -43,13 +43,33 @@
         "memory_facts:open_loop:2"
       ],
       "updated_at": "2026-07-04T17:03:28"
+    },
+    {
+      "id": "mem-open_loop-9df95b510f4c951f",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间",
+      "field": "status",
+      "value": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 3,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 3,
+      "evidence": [
+        "memory_facts:open_loop:3"
+      ],
+      "updated_at": "2026-07-04T17:07:12"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:03:28",
-    "total_items": 2
+    "last_updated": "2026-07-04T17:07:12",
+    "total_items": 3
   }
 }
