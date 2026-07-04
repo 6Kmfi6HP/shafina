@@ -1,22 +1,18 @@
 {
-  "chapter": 4,
+  "chapter": 5,
   "planned_nodes": [
     "CBN",
     "CPN1",
-    "CPN2",
-    "CPN3",
     "CEN"
   ],
   "covered_nodes": [
     "CBN",
     "CPN1",
-    "CPN2",
-    "CPN3",
     "CEN"
   ],
   "missed_nodes": [],
   "extra_nodes": [
-    "CPN4"
+    "office_aftermath"
   ],
   "fulfillment_rate": 1.0,
   "notes": "全部节点覆盖"
