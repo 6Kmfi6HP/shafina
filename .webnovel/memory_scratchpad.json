@@ -63,13 +63,33 @@
         "memory_facts:open_loop:3"
       ],
       "updated_at": "2026-07-04T17:07:12"
+    },
+    {
+      "id": "mem-open_loop-bb0e71043663ff35",
+      "layer": "semantic",
+      "category": "open_loop",
+      "subject": "两人在茶水间独处沉默，她离开时停住的半步让他反复琢磨",
+      "field": "status",
+      "value": "两人在茶水间独处沉默，她离开时停住的半步让他反复琢磨",
+      "payload": {
+        "urgency": 0.0,
+        "planted_chapter": 4,
+        "expected_payoff": null,
+        "status": "active"
+      },
+      "status": "active",
+      "source_chapter": 4,
+      "evidence": [
+        "memory_facts:open_loop:4"
+      ],
+      "updated_at": "2026-07-04T17:11:25"
     }
   ],
   "reader_promises": [],
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:07:12",
-    "total_items": 3
+    "last_updated": "2026-07-04T17:11:25",
+    "total_items": 4
   }
 }

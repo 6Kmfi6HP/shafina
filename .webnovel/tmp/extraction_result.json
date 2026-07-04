@@ -1,37 +1,37 @@
 {
-  "chapter": 3,
+  "chapter": 4,
   "entities": [
     {
       "id": "linxu",
       "name": "林叙",
       "type": "protagonist",
-      "mentions": 25,
+      "mentions": 20,
       "aliases": [],
-      "first_mention": 3
+      "first_mention": 4
     }
   ],
   "state_deltas": [
     {
       "entity_id": "linxu",
-      "attribute": "attention_level",
-      "from": "被动注意",
-      "to": "主动等待",
-      "chapter": 3,
-      "confidence": 0.85
+      "attribute": "靠近",
+      "from": "被动等待",
+      "to": "沉默的陪伴",
+      "chapter": 4,
+      "confidence": 0.8
     }
   ],
   "entity_deltas": [],
   "accepted_events": [
     {
-      "event_id": "ch003_tea",
-      "chapter": 3,
+      "event_id": "ch004_silence",
+      "chapter": 4,
       "event_type": "open_loop_created",
       "subject": "林叙",
       "payload": {
         "scene": "茶水间",
-        "description": "林叙注意到吳侑璇每天同一时间来泡茶，开始在日历上标记时间"
+        "description": "两人在茶水间独处沉默，她离开时停住的半步让他反复琢磨"
       }
     }
   ],
-  "summary_text": "第三章：林叙注意到吳侑璇每天下午三点十二分左右去茶水间泡茶。他假装倒水跟着去了茶水间，看到她别头发的动作。当天下午他去了三次茶水间。晚上他在日历上标记了那个时间。"
+  "summary_text": "第四章：林叙午饭后在茶水间遇到吳侑璇。两人沉默地共处了几分钟，她离开时在门口停了半秒。那半秒让他一整天都在回想。"
 }

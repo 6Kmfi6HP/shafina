@@ -1,0 +1,12 @@
+[
+  {
+    "event_id": "ch004_silence",
+    "chapter": 4,
+    "event_type": "open_loop_created",
+    "subject": "林叙",
+    "payload": {
+      "scene": "茶水间",
+      "description": "两人在茶水间独处沉默，她离开时停住的半步让他反复琢磨"
+    }
+  }
+]
