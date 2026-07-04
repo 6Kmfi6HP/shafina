@@ -1,7 +1,7 @@
 {
-  "chapter": 6,
-  "start_chapter": 6,
-  "end_chapter": 6,
+  "chapter": 7,
+  "start_chapter": 7,
+  "end_chapter": 7,
   "overall_score": 100.0,
   "dimension_scores": {
     "continuity": 100.0,
@@ -20,10 +20,10 @@
     "low": 0
   },
   "critical_issues": [],
-  "report_file": "审查报告/第6章审查报告.md",
+  "report_file": "审查报告/第7章审查报告.md",
   "notes": "审查通过 | issues=0 | blocking=0",
   "issues_count": 0,
   "blocking_count": 0,
   "categories": [],
-  "timestamp": "2026-07-04T17:21:20"
+  "timestamp": "2026-07-04T17:25:45"
 }
