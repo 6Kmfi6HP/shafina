@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 45,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_045.json",
+    "review": "chapter_045.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "office_aftermath"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 25,
+    "issues": [],
+    "issues_count": 0,
+    "has_blocking": false,
+    "summary": "审查通过"
+  },
+  "fulfillment_result": {
+    "planned_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "covered_nodes": [
+      "CBN",
+      "CPN1",
+      "CEN"
+    ],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "office_aftermath"
+    ],
+    "chapter": 5,
+    "fulfillment_rate": 1.0,
+    "notes": "全部节点覆盖"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 5,
+    "resolved": [],
+    "ambiguous_terms": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "ch005_realization",
+        "chapter": 5,
+        "event_type": "character_state_changed",
+        "subject": "林叙",
+        "payload": {
+          "change": "从不自知到承认自己在意吳侑璇",
+          "scene": "工位"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "linxu",
+        "attribute": "self_awareness",
+        "from": "不自知",
+        "to": "承认自己在意她",
+        "chapter": 5,
+        "confidence": 1.0
+      }
+    ],
+    "entity_deltas": [],
+    "entities_appeared": [],
+    "scenes": [],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "第五章：催化事件——林叙在周四下午意识到自己在等她来泡茶，对自己承认\"你在意她\"。",
+    "chapter": 5,
+    "entities": [
+      {
+        "id": "linxu",
+        "name": "林叙",
+        "type": "protagonist",
+        "mentions": 25,
+        "aliases": [],
+        "first_mention": 5
+      }
+    ]
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "skipped",
+    "vector": "failed:store_failed"
+  }
+}
