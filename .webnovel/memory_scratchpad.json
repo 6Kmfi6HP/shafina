@@ -1,5 +1,146 @@
 {
-  "character_state": [],
+  "character_state": [
+    {
+      "id": "mem-character_state-7f37ca5a72f1ddbe",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wunian",
+      "field": "relationship.stage",
+      "value": "日常期",
+      "payload": {
+        "old_value": "确认期"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "state_change:wunian:relationship.stage:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-159474e64fe5cf93",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "linxu",
+      "field": "relationship.stage",
+      "value": "日常期",
+      "payload": {
+        "old_value": "确认期"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "state_change:linxu:relationship.stage:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-94e3e7afb5c40173",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wunian",
+      "field": "emotional_state",
+      "value": "安心于日常陪伴",
+      "payload": {
+        "old_value": "在一起后的悸动"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "state_change:wunian:emotional_state:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-aef2bd711d1c6ae5",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "linxu",
+      "field": "emotional_state",
+      "value": "自然从容",
+      "payload": {
+        "old_value": "小心翼翼"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "state_change:linxu:emotional_state:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-3e8b715c4b5ea061",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "wunian",
+      "field": "first_seen",
+      "value": "吴念",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "entity_new:wunian:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-3618bfbd4b29b3fc",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "linxu",
+      "field": "first_seen",
+      "value": "林叙",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "entity_new:linxu:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-c97525ffa9d9f404",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xiaochen",
+      "field": "first_seen",
+      "value": "小陈",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "entity_new:xiaochen:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    },
+    {
+      "id": "mem-character_state-ae53c7ee9a591d1f",
+      "layer": "semantic",
+      "category": "character_state",
+      "subject": "xiaozhou",
+      "field": "first_seen",
+      "value": "小周",
+      "payload": {
+        "tier": "装饰",
+        "type": "角色"
+      },
+      "status": "active",
+      "source_chapter": 226,
+      "evidence": [
+        "entity_new:xiaozhou:226"
+      ],
+      "updated_at": "2026-07-05T12:34:01"
+    }
+  ],
   "story_facts": [],
   "world_rules": [],
   "timeline": [],
@@ -89,7 +230,7 @@
   "relationships": [],
   "meta": {
     "version": 1,
-    "last_updated": "2026-07-04T17:11:25",
-    "total_items": 4
+    "last_updated": "2026-07-05T12:34:01",
+    "total_items": 12
   }
 }

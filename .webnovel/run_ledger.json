@@ -1,0 +1,52 @@
+{
+  "schema_version": "webnovel-run-ledger/v1",
+  "write": {
+    "chapter_226": {
+      "chapter": 226,
+      "mode": "default",
+      "steps": {
+        "draft": {
+          "auto_handled": [],
+          "duration_ms": 0,
+          "inputs": {},
+          "outputs": {
+            "chapter_file": {
+              "exists": false,
+              "path": "正文/第226章-盛夏.md"
+            }
+          },
+          "problems": [],
+          "recorded_at": "2026-07-05T10:23:38+00:00",
+          "status": "completed",
+          "step": "draft"
+        },
+        "review": {
+          "auto_handled": [
+            "时间线模糊已在开头补充锚点修复"
+          ],
+          "duration_ms": 0,
+          "inputs": {},
+          "outputs": {
+            "anti_ai_force_check": {
+              "exists": false,
+              "path": "pass"
+            },
+            "chapter_file": {
+              "exists": false,
+              "path": "正文/第226章-盛夏.md"
+            },
+            "polish": {
+              "exists": false,
+              "path": "done"
+            }
+          },
+          "problems": [],
+          "recorded_at": "2026-07-05T10:29:33+00:00",
+          "status": "completed",
+          "step": "review"
+        }
+      },
+      "updated_at": "2026-07-05T10:29:33+00:00"
+    }
+  }
+}

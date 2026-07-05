@@ -39,9 +39,9 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 225,
-    "total_words": 455612,
-    "last_updated": "2026-07-05 09:00:00",
+    "current_chapter": 226,
+    "total_words": 270696,
+    "last_updated": "2026-07-05 12:34:00",
     "volumes_completed": [
       "第1卷",
       "第2卷",
@@ -189,7 +189,8 @@
       "120": "chapter_committed",
       "121": "chapter_committed",
       "170": "chapter_committed",
-      "225": "chapter_committed"
+      "225": "chapter_committed",
+      "226": "chapter_committed"
     }
   },
   "protagonist_state": {
@@ -209,7 +210,11 @@
       "cooldown": 0,
       "skills": []
     },
-    "attributes": {}
+    "attributes": {},
+    "relationship": {
+      "stage": "日常期"
+    },
+    "emotional_state": "自然从容"
   },
   "relationships": {},
   "disambiguation_warnings": [],
@@ -233,5 +238,18 @@
     "chapters_since_switch": 0,
     "history": []
   },
-  "entity_state": {}
+  "entity_state": {
+    "wunian": {
+      "relationship": {
+        "stage": "日常期"
+      },
+      "emotional_state": "安心于日常陪伴"
+    },
+    "linxu": {
+      "relationship": {
+        "stage": "日常期"
+      },
+      "emotional_state": "自然从容"
+    }
+  }
 }

@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "schema_version": "story-system/v1",
+    "chapter": 226,
+    "status": "accepted"
+  },
+  "contract_refs": {
+    "master": "MASTER_SETTING.json",
+    "volume": "volume_001.json",
+    "chapter": "chapter_226.json",
+    "review": "chapter_226.review.json"
+  },
+  "provenance": {
+    "write_fact_role": "chapter_commit",
+    "projection_role": "derived_read_models",
+    "legacy_state_role": "projection_only"
+  },
+  "outline_snapshot": {
+    "planned_nodes": [],
+    "covered_nodes": [],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "together_daily_life",
+      "summer_ambience",
+      "power_outage_moment"
+    ]
+  },
+  "review_result": {
+    "blocking_count": 0,
+    "chapter": 226,
+    "issues": [
+      {
+        "severity": "medium",
+        "category": "other",
+        "location": "",
+        "description": "",
+        "evidence": "",
+        "fix_hint": "",
+        "blocking": false
+      }
+    ],
+    "issues_count": 1,
+    "has_blocking": false,
+    "summary": ""
+  },
+  "fulfillment_result": {
+    "planned_nodes": [],
+    "covered_nodes": [],
+    "missed_nodes": [],
+    "extra_nodes": [
+      "together_daily_life",
+      "summer_ambience",
+      "power_outage_moment"
+    ],
+    "chapter": 226,
+    "fulfillment_rate": 1.0,
+    "notes": "本章为第225章完结后的续写，无对应写作任务书节点。全章呈现'在一起之后'的日常质感，属于情感深化而非剧情推进。"
+  },
+  "disambiguation_result": {
+    "pending": [],
+    "chapter": 226,
+    "resolved": [],
+    "ambiguous_terms": []
+  },
+  "extraction_result": {
+    "accepted_events": [
+      {
+        "event_id": "evt-ch226-001",
+        "chapter": 226,
+        "event_type": "character_state_changed",
+        "subject": "wunian",
+        "payload": {
+          "field": "relationship.stage",
+          "old": "确认期",
+          "new": "日常期"
+        }
+      },
+      {
+        "event_id": "evt-ch226-002",
+        "chapter": 226,
+        "event_type": "character_state_changed",
+        "subject": "linxu",
+        "payload": {
+          "field": "relationship.stage",
+          "old": "确认期",
+          "new": "日常期"
+        }
+      },
+      {
+        "event_id": "evt-ch226-003",
+        "chapter": 226,
+        "event_type": "character_state_changed",
+        "subject": "wunian",
+        "payload": {
+          "field": "emotional_state",
+          "old": "在一起后的悸动",
+          "new": "安心于日常陪伴"
+        }
+      },
+      {
+        "event_id": "evt-ch226-004",
+        "chapter": 226,
+        "event_type": "character_state_changed",
+        "subject": "linxu",
+        "payload": {
+          "field": "emotional_state",
+          "old": "小心翼翼",
+          "new": "自然从容"
+        }
+      }
+    ],
+    "state_deltas": [
+      {
+        "entity_id": "wunian",
+        "field": "relationship.stage",
+        "old": "确认期",
+        "new": "日常期"
+      },
+      {
+        "entity_id": "linxu",
+        "field": "relationship.stage",
+        "old": "确认期",
+        "new": "日常期"
+      },
+      {
+        "entity_id": "wunian",
+        "field": "emotional_state",
+        "old": "在一起后的悸动",
+        "new": "安心于日常陪伴"
+      },
+      {
+        "entity_id": "linxu",
+        "field": "emotional_state",
+        "old": "小心翼翼",
+        "new": "自然从容"
+      }
+    ],
+    "entity_deltas": [
+      {
+        "entity_id": "wunian",
+        "action": "upsert",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "name": "吴念",
+          "aliases": [
+            "吴念",
+            "吳侑璇"
+          ],
+          "role": "女主角"
+        }
+      },
+      {
+        "entity_id": "linxu",
+        "action": "upsert",
+        "entity_type": "角色",
+        "is_protagonist": true,
+        "payload": {
+          "name": "林叙",
+          "role": "男主角"
+        }
+      },
+      {
+        "entity_id": "xiaochen",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "小陈",
+          "role": "市场部同事"
+        }
+      },
+      {
+        "entity_id": "xiaozhou",
+        "action": "upsert",
+        "entity_type": "角色",
+        "payload": {
+          "name": "小周",
+          "role": "设计组同事"
+        }
+      }
+    ],
+    "entities_appeared": [
+      {
+        "id": "wunian",
+        "type": "角色",
+        "mentions": [
+          "吴念",
+          "她"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "id": "linxu",
+        "type": "角色",
+        "mentions": [
+          "林叙",
+          "他"
+        ],
+        "confidence": 1.0
+      },
+      {
+        "id": "xiaochen",
+        "type": "角色",
+        "mentions": [
+          "小陈"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "xiaozhou",
+        "type": "角色",
+        "mentions": [
+          "小周"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "scenes": [
+      {
+        "index": 1,
+        "start_line": 1,
+        "end_line": 27,
+        "location": "办公室",
+        "summary": "盛夏早晨，空调嗡嗡转着，两人各自坐在工位上安静工作。吴念在等邮件时走神想到他。林叙听到她杯子碰桌面的声音，手指在键盘上停顿了片刻。她经过他那排工位时，他的键盘声也停了一下——没有对视，但彼此感知。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "吴念盯着屏幕等邮件回复，林叙听到她杯底碰桌面的声音后手指停顿。她走过他那排工位时他的键盘声也停了一下。"
+      },
+      {
+        "index": 2,
+        "start_line": 29,
+        "end_line": 47,
+        "location": "公司楼下简餐店/走廊",
+        "summary": "午休时吴念与市场部小陈、设计组小周在简餐店吃饭，她们聊周末计划，她却在想林叙中午一个人去了哪里吃面。回公司后在走廊迎面碰上他，简短互问吃了什么，错身而过——但下午那道沟被填平了一些。",
+        "characters": [
+          "wunian",
+          "linxu",
+          "xiaochen",
+          "xiaozhou"
+        ],
+        "content": "吴念与市场部小陈、设计组小周吃简餐，心里想林叙是不是一个人去后街面馆。回公司时走廊迎面碰上，简短互问'吃了？''嗯。你呢？''吃了。'"
+      },
+      {
+        "index": 3,
+        "start_line": 49,
+        "end_line": 69,
+        "location": "会议室/工位",
+        "summary": "项目进度会上两部门人员围坐，她坐靠窗，他坐对面。下午的光在桌上投出斜斜的光带，浮尘在光束中浮动。他们的视线越过投影仪短暂相遇不到一秒，自然错开。会议结束她回到工位，发现桌上多了一杯冰美式——知道是他放的。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "会议室里两人的视线越过投影仪光束短暂相遇不到一秒后自然错开。会议结束后吴念回到工位发现多了一杯冰美式，知道是他放的。林叙坐在工位上，嘴角有微不可察的弧度。"
+      },
+      {
+        "index": 4,
+        "start_line": 71,
+        "end_line": 105,
+        "location": "公司楼下/街道",
+        "summary": "傍晚六点十分吴念才下班，走出大门看到林叙站在侧面梧桐树阴影里——手机屏幕已经暗了，显然等了好一阵。她没有问多久，只说走吧。他收起手机跟上来，并肩走在夏日傍晚金白色的光里，她走在光中，半个肩膀落在她的影子里。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "吴念晚走了十几分钟，走出大门发现林叙站在侧面的梧桐树阴影里等她，手机屏幕是暗的——已经等了一阵。她只说'走吧'，他跟上来并肩走。"
+      },
+      {
+        "index": 5,
+        "start_line": 107,
+        "end_line": 133,
+        "location": "街道路口",
+        "summary": "七月傍晚的风是热的。他们走了一段路没说话，在路口等红灯时她问晚上吃什么。他想了想说公司后面新开了凉面店——中午去吃过。她说那去试试。绿灯亮了穿过马路，两个人的影子在地上拉成两条平行的长线，之间隔着一个拳头的距离。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "她问晚上吃什么，他说公司后面新开的凉面店还行——中午去吃过了。她决定去试试。绿灯亮时穿过马路，两个人影在地上拉成两道平行的长线。"
+      },
+      {
+        "index": 6,
+        "start_line": 135,
+        "end_line": 213,
+        "location": "凉面店",
+        "summary": "店里干净凉快，各点一碗凉面。吃到一半店里跳闸了——灯灭了，空调停了，店里的嗡嗡声消退。其他顾客开始翻手机抱怨，但吴念和林叙都没有动，坐在原地筷子还拿在手里。她看着昏暗中安静等待的他忽然笑了，他们在没有电的店里慢慢吃完了面。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "店里停电，其他顾客开始翻手机抱怨，但吴念和林叙都没有动。她看着昏暗中安静等待的他忽然笑了，他们在没有电的店里安静吃完了两碗面。"
+      },
+      {
+        "index": 7,
+        "start_line": 215,
+        "end_line": 247,
+        "location": "街道/地铁站",
+        "summary": "老板后来把电弄好了，但他们已经吃完。林叙付了钱出来，两人站在暮色中。送到地铁站的路上，他们肩膀之间的拳头距离消失了——不知道谁先靠的。他说明天见，她说明天见。她走了几步又回头看他一眼。他目送她进站后回到梧桐树下，把今天的小片段一一收进心里。",
+        "characters": [
+          "wunian",
+          "linxu"
+        ],
+        "content": "并肩走在暮色中，肩膀之间的拳头距离消失了。到地铁站互道'明天见'。吴念走几步又回头看他。林叙目送她进站后走回梧桐树下，把今天的小片段一一收进心里。"
+      },
+      {
+        "index": 8,
+        "start_line": 249,
+        "end_line": 271,
+        "location": "吴念房间",
+        "summary": "深夜吴念洗完澡躺在床上关了灯。窗帘缝隙漏进来的路灯光在天花板上投出窄窄一道光。窗外有夏夜虫鸣。她回想今天——没有惊喜没有里程碑，就是一个普通工作日。但想起停电时他安静坐在对面的样子，她的嘴角不自觉翘了起来，在黑暗中睡着了。",
+        "characters": [
+          "wunian"
+        ],
+        "content": "吴念躺在床上回想今天——没有什么特别的事，就是一个普通的工作日。想起停电时他安静坐在对面的样子，嘴角不自觉翘起，在黑暗中睡着了。"
+      }
+    ],
+    "chapter_meta": {},
+    "dominant_strand": "",
+    "summary_text": "这是他们在一起之后的第一个七月。本章通过八个日常片段——早晨工位安静默契、午休走廊简短对话、会议室视线交错、桌上多出的冰美式、他在楼下默默等候、停电时她在昏暗中的笑、深夜她带笑入睡——呈现了在一起之后最动人的部分不是惊天动地，而是每一天有人在身边的安静笃定。"
+  },
+  "projection_status": {
+    "state": "done",
+    "index": "done",
+    "summary": "done",
+    "memory": "done",
+    "vector": "failed:store_failed"
+  }
+}

@@ -1,19 +1,13 @@
 {
-  "chapter": 5,
-  "planned_nodes": [
-    "CBN",
-    "CPN1",
-    "CEN"
-  ],
-  "covered_nodes": [
-    "CBN",
-    "CPN1",
-    "CEN"
-  ],
+  "chapter": 226,
+  "planned_nodes": [],
+  "covered_nodes": [],
   "missed_nodes": [],
   "extra_nodes": [
-    "office_aftermath"
+    "together_daily_life",
+    "summer_ambience",
+    "power_outage_moment"
   ],
   "fulfillment_rate": 1.0,
-  "notes": "全部节点覆盖"
+  "notes": "本章为第225章完结后的续写，无对应写作任务书节点。全章呈现'在一起之后'的日常质感，属于情感深化而非剧情推进。"
 }

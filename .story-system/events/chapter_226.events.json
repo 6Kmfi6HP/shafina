@@ -1,0 +1,46 @@
+[
+  {
+    "event_id": "evt-ch226-001",
+    "chapter": 226,
+    "event_type": "character_state_changed",
+    "subject": "wunian",
+    "payload": {
+      "field": "relationship.stage",
+      "old": "确认期",
+      "new": "日常期"
+    }
+  },
+  {
+    "event_id": "evt-ch226-002",
+    "chapter": 226,
+    "event_type": "character_state_changed",
+    "subject": "linxu",
+    "payload": {
+      "field": "relationship.stage",
+      "old": "确认期",
+      "new": "日常期"
+    }
+  },
+  {
+    "event_id": "evt-ch226-003",
+    "chapter": 226,
+    "event_type": "character_state_changed",
+    "subject": "wunian",
+    "payload": {
+      "field": "emotional_state",
+      "old": "在一起后的悸动",
+      "new": "安心于日常陪伴"
+    }
+  },
+  {
+    "event_id": "evt-ch226-004",
+    "chapter": 226,
+    "event_type": "character_state_changed",
+    "subject": "linxu",
+    "payload": {
+      "field": "emotional_state",
+      "old": "小心翼翼",
+      "new": "自然从容"
+    }
+  }
+]

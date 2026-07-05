@@ -1,0 +1,4 @@
+{"timestamp": "2026-07-05T12:23:54.649489", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 10, "error_code": "NOT_FOUND", "error_message": "未找到实体: lin-xu"}
+{"timestamp": "2026-07-05T12:23:54.976432", "tool_name": "state_manager:get-entity", "success": false, "elapsed_ms": 8, "error_code": "NOT_FOUND", "error_message": "未找到实体: wu-youxuan"}
+{"timestamp": "2026-07-05T12:30:49.783206", "tool_name": "index_manager:get-core-entities", "success": true, "elapsed_ms": 6}
+{"timestamp": "2026-07-05T12:30:56.504179", "tool_name": "index_manager:recent-appearances", "success": true, "elapsed_ms": 6}
